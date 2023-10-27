@@ -23,24 +23,28 @@
     <!-- Header section -->
     <header class="header">
       <div class="container header-container">
-        <nav class="nav">
+        <nav class="header-nav">
           <a class="logo link" href="./index.html"
             >Web<span class="studio-logo">Studio</span></a
           >
-          <ul class="list nav-menu">
+          <ul class="header-nav-menu list">
             <li>
-              <a href="./index.html" class="nav-link link current">Studio</a>
+              <a href="./index.html" class="header-nav-link link current"
+                >Studio</a
+              >
             </li>
             <li>
-              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+              <a href="./portfolio.html" class="header-nav-link link"
+                >Portfolio</a
+              >
             </li>
             <li>
-              <a href="" class="nav-link link">Contacts</a>
+              <a href="" class="header-nav-link link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <address class="contact-info">
-          <ul class="list adress-links">
+        <address class="header-contact-info">
+          <ul class="header-adress-links list">
             <li>
               <a href="mailto:info@devstudio.com" class="info-link link"
                 >info@devstudio.com</a
@@ -53,6 +57,11 @@
             </li>
           </ul>
         </address>
+        <button class="header-menu-btn" type="button">
+          <svg class="header-menu-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -177,8 +186,8 @@
                 height="260"
               />
               <div class="team-card-description">
-                <h3 class="subtitle team-card-subtitle">Mark Guerrero</h3>
-                <p class="team-card-text">Product Designer</p>
+                <h3 class="card-subtitle">Mark Guerrero</h3>
+                <p class="card-text">Product Designer</p>
                 <ul class="list social-links-list">
                   <li class="social-link-item">
                     <a class="link social-link" href="">
@@ -219,8 +228,8 @@
                 height="260"
               />
               <div class="team-card-description">
-                <h3 class="subtitle team-card-subtitle">Tom Ford</h3>
-                <p class="team-card-text">Frontend Developer</p>
+                <h3 class="card-subtitle">Tom Ford</h3>
+                <p class="card-text">Frontend Developer</p>
                 <ul class="list social-links-list">
                   <li class="social-link-item">
                     <a class="link social-link" href="">
@@ -261,8 +270,8 @@
                 height="260"
               />
               <div class="team-card-description">
-                <h3 class="subtitle team-card-subtitle">Camila Garcia</h3>
-                <p class="team-card-text">Marketing</p>
+                <h3 class="card-subtitle">Camila Garcia</h3>
+                <p class="card-text">Marketing</p>
                 <ul class="list social-links-list">
                   <li class="social-link-item">
                     <a class="link social-link" href="">
@@ -303,8 +312,8 @@
                 height="260"
               />
               <div class="team-card-description">
-                <h3 class="subtitle team-card-subtitle">Daniel Wilson</h3>
-                <p class="team-card-text">UI Designer</p>
+                <h3 class="card-subtitle">Daniel Wilson</h3>
+                <p class="card-text">UI Designer</p>
                 <ul class="list social-links-list">
                   <li class="social-link-item">
                     <a class="link social-link" href="">
@@ -468,8 +477,8 @@
     <div class="modal-wrapper is-hidden" data-modal>
       <div class="modal-window" data-modal-content>
         <button class="modal-button-exit" type="button" data-modal-close>
-          <svg class="x-mark-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-x-mark"></use>
+          <svg class="x-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-x-close"></use>
           </svg>
         </button>
         <p class="ordinary-text modal-title-text">
@@ -541,7 +550,7 @@
             <label class="text-user-privicy" for="user-privacy">
               <span class="custom-checkbox">
                 <svg class="checkbox-mark-icon" width="10" height="8">
-                  <use href="./images/icons.svg#check-mark"></use>
+                  <use href="./images/icons.svg#icon-check-mark"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
