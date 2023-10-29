@@ -1,0 +1,27 @@
+/* ----- Section Work-Process ----- */
+
+.work-process-section {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .work-process-section {
+    display: flex;
+    padding-bottom: 120px;
+  }
+}
+
+.work-process {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.work-process-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.work-process-img {
+  border: 1px solid var(--primary-border);
+}

@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --primary-background: #ffffff;
+  --dark-background: #2e2f42;
+  --secondary-background: #f4f4fd;
+  --overlay-background: #4d5ae5;
+  --modal-wrapper-background: rgba(46, 47, 66, 0.4);
+  --modal-background: #fcfcfc;
+  --active-checkbox-background: #404bbf;
+
+  --primary-text: #2e2f42;
+  --ordinary-text: #434455;
+  --secondary-text: #ffffff;
+  --light-text: #f4f4fd;
+  --blue-text: #4d5ae5;
+  --active-link: #404bbf;
+  --primary-modal-text: #8e8f99;
+
+  --primary-button: #4d5ae5;
+  --active-button: #404bbf;
+  --ordinary-button: #f4f4fd;
+  --modal-button: #e7e9fc;
+
+  --primary-border: #e7e9fc;
+  --ordinary-border: #8e8f99;
+  --active-border: #404bbf;
+  --dark-border: #2e2f42;
+  --modal-item-border: #4d5ae5;
+
+  --ordinary-icon: #8e8f99;
+  --light-icon: #f4f4fd;
+  --primary-icon: #4d5ae5;
+  --active-icon: #404bbf;
+  --active-footer-icon: #31d0aa;
+  --dark-icon: #2e2f42;
+}
