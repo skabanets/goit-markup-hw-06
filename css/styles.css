@@ -342,23 +342,77 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url("../images/hero/hero-bg_mob.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  max-width: 1440px;
+  max-width: 428px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
+  (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-bg_mob@2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-bg_tab.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-bg_tab@2x.jpg");
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-bg_desk.jpg");
+  }
+}
+@media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
+  (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/hero-bg_desk@2x.jpg");
+  }
 }
 
 @media screen and (min-width: 768px) {
   .hero-section {
     padding: 40px 0 112px 0;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0;
+    max-width: 1440px;
   }
 }
 
@@ -730,7 +784,7 @@ body {
 }
 
 .project-card {
-  width: 396px;
+  max-width: 396px;
 }
 
 @media screen and (min-width: 768px) {
@@ -797,9 +851,6 @@ body {
   font-weight: 500;
   line-height: 1, 2;
   letter-spacing: 0.02em;
-}
-
-.project-card-text {
 }
 
 /* ----- Footer ----- */
