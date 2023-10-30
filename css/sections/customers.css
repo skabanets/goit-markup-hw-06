@@ -15,7 +15,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 72px 24px;
+  gap: 72px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .customers-list {
+    gap: 72px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .customers-list {
+    gap: 24px;
+  }
 }
 
 .customers-list-item {
